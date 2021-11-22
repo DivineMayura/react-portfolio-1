@@ -7,6 +7,10 @@ import NavTabs from './NavTabs';
 import Projects from './pages/Projects';
 // import Contact from './pages/Contact';
 
+import "./PortfolioContainer.css"
+
+
+
 export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('Home');
 

@@ -1,0 +1,15 @@
+.mayactive {
+    color: #F8004E;
+  }
+  
+  .nav-link{
+    color:#31E1BD;
+  }
+
+  .nav-link:hover{
+    color:#FFC12E;
+  }
+
+  .nav{
+      background-color: #282C34;
+  }
