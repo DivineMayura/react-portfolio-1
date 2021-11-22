@@ -1,3 +1,23 @@
+
+
+.nav-link:active {
+  color: #F8004E;
+}
+
+.nav-link{
+  color:#31E1BD;
+}
+
+
+
+
+
+
+
+
+
+
+
 .App {
   text-align: center;
 }
@@ -13,21 +33,6 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: #31E1BD;
-}
-
-.App-link {
-  /* color: #61dafb; */
-  color: #31E1BD;
-}
 
 @keyframes App-logo-spin {
   from {
