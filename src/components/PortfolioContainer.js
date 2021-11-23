@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import NavTabs from './NavTabs';
 
 // Pages to be rendered
-// import Home from './pages/Home';
+import Home from './pages/Home';
 // import About from './pages/About';
 import Projects from './pages/Projects';
-// import Contact from './pages/Contact';
+import Contact from './pages/Contact';
 
 import "./PortfolioContainer.css"
 
@@ -19,7 +19,7 @@ export default function PortfolioContainer() {
     // then return home so the user can view it.
     const renderPage = () => {
         if (currentPage === 'Home') {
-            //   return <Home />;
+              return <Home />;
         }
         if (currentPage === 'About') {
             //   return <About />;
@@ -27,7 +27,7 @@ export default function PortfolioContainer() {
         if (currentPage === 'Projects') {
             return <Projects />;
         }
-        // return <Contact />;
+        return <Contact />;
     };
 
     // handlePageChange 
