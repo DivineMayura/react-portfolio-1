@@ -3,7 +3,7 @@ import NavTabs from './NavTabs';
 
 // Pages to be rendered
 import Home from './pages/Home';
-// import About from './pages/About';
+import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 
@@ -22,7 +22,7 @@ export default function PortfolioContainer() {
               return <Home />;
         }
         if (currentPage === 'About') {
-            //   return <About />;
+              return <About />;
         }
         if (currentPage === 'Projects') {
             return <Projects />;
