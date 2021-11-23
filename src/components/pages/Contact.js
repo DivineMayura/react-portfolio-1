@@ -6,7 +6,7 @@ import React from 'react';
 
 
 export default function contact() {
-    return(
+    return (
 
         <ul className="contactList">
             <li className="contactItem">
@@ -14,24 +14,24 @@ export default function contact() {
                     rel="noreferrer"
                     target="_blank"
                     className="contactLink">
-                        Git Hub Profile
-                    </a>
+                    Git Hub Profile
+                </a>
             </li>
             <li className="contactItem">
                 <a href="https://www.linkedin.com/in/mayfaucher/"
                     rel="noreferrer"
                     target="_blank"
                     className="contactLink">
-                        LinkedIn Profile
-                    </a>
+                    LinkedIn Profile
+                </a>
             </li>
             <li className="contactItem">
                 <a href="https://www.linkedin.com/in/mayfaucher/"
                     rel="noreferrer"
                     target="_blank"
                     className="contactLink">
-                        LinkedIn Profile
-                    </a>
+                    LinkedIn Profile
+                </a>
             </li>
         </ul>
 
