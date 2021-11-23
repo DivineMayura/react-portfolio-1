@@ -1,18 +1,4 @@
-.active {
-    color: #F8004E !important;
-  }
-  
-  .nav-link{
-    color:#31E1BD;
-  }
 
-  .nav-link:hover{
-    color:#FFC12E;
-  }
-
-  .nav{
-      background-color: #282C34;
-  }
 
   .mayCenter{
     text-align: center;
@@ -21,3 +7,9 @@
     flex-direction: column;
 
   }
+
+  .padding{
+    display:flex;
+    padding: 10vw;
+  }
+

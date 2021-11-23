@@ -6,7 +6,7 @@ import React from 'react';
 
 export default function aboutMay() {
     return (
-        <div>
+        <div className="mayCenter padding">
             <div>
                 <img alt="imageOfMay" />
             </div>
@@ -23,7 +23,36 @@ export default function aboutMay() {
                     My Skills Include:
                 </h4>
                 <p>
-
+                Clear Communication,
+                 Team-Working Skills,
+                  Leadership skills,
+                   HTML5,
+                    Cascading Style Sheets (CSS),
+                     Bootstrap,
+                      JavaScript,
+                       Problem-Solving,
+                        Web APIs,
+                         jQuery,
+                          Server Side APIs,
+                           Postman/Insomnia,
+                            AJAX/Fetch,
+                             JSON,
+                              Git & GitHub,
+                               GitLab,
+                                Sequelize,
+                                 Node.js,
+                                  ES6,
+                                   Express.js,
+                                    Rest API,
+                                     Heroku,
+                                      Relational Databases,
+                                       MySQL,
+                                        Object-oriented Programming (OOP),
+                                         Pseudocode,
+                                          Frontend Development,
+                                           Backend Development,
+                                            and Full Stack Development,
+                                             Bootstrap.
                 </p>
             </div>
         </div>
