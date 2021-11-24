@@ -19,7 +19,7 @@ export default function contact() {
                     <a href="https://github.com/DivineMayura"
                         rel="noreferrer"
                         target="_blank"
-                        className="contactLink">GitHub</a>
+                        className="contactLink nav-link">GitHub</a>
                 </button>
             </h5>
             <h5 className="mayAlignTextCenter">
@@ -36,12 +36,12 @@ export default function contact() {
                     <a href="https://medium.com/@mayyfaucher"
                         rel="noreferrer"
                         target="_blank"
-                        className="contactLink">Medium.com</a>
+                        className="contactLink nav-link">Medium.com</a>
                 </button>
             </h5>
             <h5 className="mayAlignTextCenter">
                 <button className="contactButton">
-                    <a href="./../../Resume-May.docx" download>download resume</a></button>
+                    <a className="contactLink nav-link" target="_blank" href="https://drive.google.com/drive/folders/1nlS_3OJolUbQDhC7ayuc0yAnT_uEWCji?usp=sharing">download resume on Google Drive</a></button>
             </h5>
             <hr />
             <div>
