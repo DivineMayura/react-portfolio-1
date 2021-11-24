@@ -31,3 +31,9 @@ body{
     isolation: isolate;
 }
 
+.contactButton{
+  background-color:#262A31;
+  border-style: solid;
+  border-width: 1px;
+  border-color: aquamarine;
+}
