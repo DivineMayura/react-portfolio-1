@@ -22,7 +22,7 @@ function Projects() {
     const projects = [
         {
             id: 1,
-            image: "./../../images/dungeonrunner.gif",
+            image: "https://github.com/DivineMayura/react-portfolio-1/blob/main/src/images/dungeonrunner.gif?raw=true",
             name: "Dungeon Runner",
             about: "My second Group Project. Created with phaser.js, Dungeon Runner is a small Browser Game with SQL backed player interaction.",
             github: "",
@@ -30,7 +30,7 @@ function Projects() {
         },
         {
             id: 2,
-            image: { i2 },
+            image: "https://github.com/DivineMayura/react-portfolio-1/blob/main/src/images/holyhour.jpg?raw=true",
             name: "Holy Hour",
             about: "First Group Project. Holy-Hour compares the amount of Bars in an area versus the amount of Churches, and provides accurate weather information to help you make the decision of whether or not to go out.",
             github: "",
@@ -38,7 +38,7 @@ function Projects() {
         },
         {
             id: 3,
-            image: { i5 },
+            image: "https://github.com/DivineMayura/react-portfolio-1/blob/main/src/images/weather.jpg?raw=true",
             name: "Weather Dashboard",
             about: "This is a simple weather dasboard using Open Weather Map One Call API, and GeoLocation API, to display the weather of any city the user types in. Uses Local Storage for search history",
             github: "",
@@ -46,7 +46,7 @@ function Projects() {
         },
         {
             id: 4,
-            image: { i4 },
+            image: "https://github.com/DivineMayura/react-portfolio-1/blob/main/src/images/quiz.jpg?raw=true",
             name: "Javascript Quiz",
             about: "A small quiz relying entirely on JavaScript for its functionality with local storage for scoring system.",
             github: "",
@@ -54,7 +54,7 @@ function Projects() {
         },
         {
             id: 5,
-            image: { i3 },
+            image: "https://github.com/DivineMayura/react-portfolio-1/blob/main/src/images/pswrdgen.jpg?raw=true",
             name: "Password Generator",
             about: "Rudimentary password generator using window alerts, prompts, and confirms.",
             github: "",
@@ -85,7 +85,7 @@ function Projects() {
         <img
           className="card-img-top"
           src={projects.image}
-          alt="Card cap"
+          alt={projects.name}
         />
         <div className="card-body">
         <h5 className="card-title">Name: {projects.name}</h5>
