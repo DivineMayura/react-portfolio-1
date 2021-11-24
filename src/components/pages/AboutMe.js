@@ -9,9 +9,11 @@ export default function aboutMay() {
     return (
         <div className="mayCenter padding">
             <div>
-                <img alt="imageOfMay" src={selfie} />
+                <img alt="imageOfMay" className="profImage" src={selfie} />
             </div>
-            <div>
+            <br/>
+            <div className="lilBackground">
+            <div className="topPadding">
                 <h3>
                     About Me:
                 </h3>
@@ -22,6 +24,7 @@ export default function aboutMay() {
                     <br />
                 </p>
             </div>
+            <br/>
             <div>
                 <h6>
                     My Hobbies Are:
@@ -34,9 +37,12 @@ export default function aboutMay() {
                     Chess <br />
                     Travel <br />
                     Self-Improvement. <br />
-                    Making Things. <br />
-
+                    Creating Things. <br />
+                    Flying  <br />
+                    <br />
+                    <br />
                 </p>
+            </div>
             </div>
         </div>
     )
