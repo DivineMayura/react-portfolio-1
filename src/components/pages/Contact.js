@@ -41,7 +41,7 @@ export default function contact() {
             </h5>
             <h5 className="mayAlignTextCenter">
                 <button className="contactButton">
-                    <a className="contactLink nav-link" target="_blank" href="https://drive.google.com/drive/folders/1nlS_3OJolUbQDhC7ayuc0yAnT_uEWCji?usp=sharing">download resume on Google Drive</a></button>
+                    <a className="contactLink nav-link" target="_blank" rel="noreferrer" href="https://drive.google.com/drive/folders/1nlS_3OJolUbQDhC7ayuc0yAnT_uEWCji?usp=sharing">download resume on Google Drive</a></button>
             </h5>
             <hr />
             <div>
