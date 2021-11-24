@@ -1,4 +1,5 @@
 import React from 'react';
+import selfie from "./../../images/selfie11.jpg";
 // if I view my about me page,
 // then I am presented with a profile picture, as well as a paragraph about me
 //  and a list of all my skills that I have acquired thus far.
@@ -8,51 +9,33 @@ export default function aboutMay() {
     return (
         <div className="mayCenter padding">
             <div>
-                <img alt="imageOfMay" />
+                <img alt="imageOfMay" src={selfie} />
             </div>
             <div>
                 <h3>
                     About Me:
                 </h3>
                 <p>
-                    I'm a twenty one year old full stack developer with a pilots license!
+                    I'm a twenty one year old full stack developer and a certified pilot!  <br /><br />
+                    I have a wide skill set, I like learning new things, and I want to use those skills effectively. <br /><br />
+                    After I graduated high school, I went to acquire my pilot’s license. <br /> Upon receiving my certificate I attended a community college in Eureka California for a year. <br /> Now, I’m currently in a full time coding bootcamp to learn full stack web development.
+                    <br />
                 </p>
             </div>
             <div>
-                <h4>
-                    My Skills Include:
-                </h4>
-                <p>
-                Clear Communication,
-                 Team-Working Skills,
-                  Leadership skills,
-                   HTML5,
-                    Cascading Style Sheets (CSS),
-                     Bootstrap,
-                      JavaScript,
-                       Problem-Solving,
-                        Web APIs,
-                         jQuery,
-                          Server Side APIs,
-                           Postman/Insomnia,
-                            AJAX/Fetch,
-                             JSON,
-                              Git & GitHub,
-                               GitLab,
-                                Sequelize,
-                                 Node.js,
-                                  ES6,
-                                   Express.js,
-                                    Rest API,
-                                     Heroku,
-                                      Relational Databases,
-                                       MySQL,
-                                        Object-oriented Programming (OOP),
-                                         Pseudocode,
-                                          Frontend Development,
-                                           Backend Development,
-                                            and Full Stack Development,
-                                             Bootstrap.
+                <p><h6>
+                    My Hobbies Are:
+                </h6>
+                    Learning <br />
+                    Coding <br />
+                    Reading <br />
+                    Philosophy <br />
+                    Psychology <br />
+                    Chess <br />
+                    Travel <br />
+                    Self-Improvement. <br />
+                    Making Things. <br />
+
                 </p>
             </div>
         </div>

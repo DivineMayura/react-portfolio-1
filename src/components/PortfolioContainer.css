@@ -13,3 +13,9 @@
     padding: 10vw;
   }
 
+.flexProjects{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
