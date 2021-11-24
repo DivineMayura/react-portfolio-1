@@ -1,31 +1,18 @@
+
 import React from 'react';
 
-// if I select contact 
-// then I am presented with either a form, or various links, perhaps both
-// 
 
 
 export default function contact() {
 
 
+    function handleFormSubmit() {
 
-    const handleInputChange = () => {
-        // Getting the value and name of the input which triggered the change
 
-        // Ternary statement that will call either setFirstName or setLastName based on what field the user is typing in
-        // return name === 'firstName' ? setFirstName(value) : setLastName(value);
-
-    };
-
-    const handleFormSubmit = (e) => {
-        // Preventing the default behavior of the form submit (which is to refresh the page)
-        e.preventDefault();
-
-        // Alert the user their first and last name, clear the inputs
-
-        // setFirstName('');
-        // setLastName('');
-    };
+    //     return(  <div className={`alert alert-success'}`} role="alert">"horse"</div>
+    // ) 
+        alert("This feature hasn't been implemented yet. \nInstead you can email me at: MayyFaucher@gmail.com");
+    }
 
 
 
@@ -36,60 +23,49 @@ export default function contact() {
 
 
     return (
-        <div className="padding">
+        <div className="padding flexContact">
             <ul className="contactList">
                 <li className="contactItem">
                     <a href="https://github.com/DivineMayura"
                         rel="noreferrer"
                         target="_blank"
-                        className="contactLink">
-                        GitHub Profile
-                    </a>
+                        className="contactLink">GitHub</a>
                 </li>
                 <li className="contactItem">
                     <a href="https://www.linkedin.com/in/mayfaucher/"
                         rel="noreferrer"
                         target="_blank"
-                        className="contactLink">
-                        LinkedIn Profile
-                    </a>
+                        className="contactLink">LinkedIn</a>
                 </li>
                 <li className="contactItem">
                     <a href="https://medium.com/@mayyfaucher"
                         rel="noreferrer"
                         target="_blank"
-                        className="contactLink">
-                        Medium.com Profile
-                    </a>
+                        className="contactLink">Medium.com</a>
                 </li>
             </ul>
-            <h5>
-                <a href="./../../Resume-May.docx" download>
-                    resume
-                </a>
+            <h5 className="mayAlignTextCenter">
+                <a href="./../../Resume-May.docx" download>download resume</a>
             </h5>
-            <hr/>
+            <hr />
             <div>
                 <div>
                     <form className="form">
                         <input
-                            //   value={firstName}
-                            name="firstName"
-                            onChange={handleInputChange}
                             // onChange={orThisWayForBoth}
                             type="text"
-                            placeholder="First Name"
-
+                            placeholder="Name"
                         />
+                        <br />
                         <input
-                            //   value={lastName}
-                            name="lastName"
-                            onChange={handleInputChange}
                             // onChange={orThisWayForBoth}
                             type="text"
-                            placeholder="Last Name"
-
+                            placeholder="Email"
                         />
+                        <br />
+                        <br />
+                        <textarea placeholder="Email Content"></textarea>
+                        <hr />
                         <button type="button" onClick={handleFormSubmit}>
                             Submit
                         </button>

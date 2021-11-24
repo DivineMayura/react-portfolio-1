@@ -8,19 +8,23 @@ export default function resume() {
             <hr />
             <div>
                 <h3>Education:</h3>
-                <p><h6>UC Berkeley Extension</h6>
+                <h6>UC Berkeley Extension</h6><p>
                     2021- currently<br />
                     Learning Full Stack Web Development.<br />
                     <br />
-                    <h6>College of the Redwoods</h6>
-                    2020 - 2021.<br />
+                </p>
+                <h6>College of the Redwoods</h6><p>
+                    2020 - 2021.
+                    <br />
                     Majoring in psychology.<br />
                     <br />
-                    <h6>California Flight Academy</h6>
+                </p>
+                <h6>California Flight Academy</h6><p>
                     2018 – 2019<br />
                     I left the flight academy with my pilot’s license.<br />
                     <br />
-                    <h6>Alder Grove Charter School</h6>
+                </p>
+                <h6>Alder Grove Charter School</h6><p>
                     Graduated high school in 2018<br />
                     I graduated with almost a 4.0 and received my diploma.<br />
                 </p>
@@ -29,7 +33,7 @@ export default function resume() {
             <div>
                 <br />
                 <h3>Skills & Certifications</h3>
-                <p class="certifications">Pilot License - (Considered to have best skill in my class)<br />
+                <p className="certifications">Pilot License - (Considered to have best skill in my class)<br />
 
                     Issued on 5 DEC 2019  <br /> Last name: Faucher<br />
 
@@ -38,7 +42,8 @@ export default function resume() {
                     Reference: FAA Airmen Inquiry website.<br />
 
                     <br />
-                    <h6>Some other skills of mine include:</h6>
+                    </p>
+                    <h6>Some other skills of mine include:</h6><p>
 
                     Clear Communication, Team-Working Skills, Leadership skills, HTML5, Cascading Style Sheets (CSS), Bootstrap, JavaScript, Problem-Solving, Web APIs, jQuery, Server Side APIs, Postman/Insomnia, AJAX/Fetch, JSON, Git & GitHub, Node.js, ES6, Express.js, Rest API, Heroku, Relational Databases, MySQL, Object-oriented Programming (OOP), Pseudocode, Frontend Development, Backend Development, and Full Stack Development.
                     <br />

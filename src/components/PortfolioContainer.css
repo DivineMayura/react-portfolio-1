@@ -19,3 +19,23 @@
   flex-wrap: nowrap;
   align-items: center;
 }
+
+.flexContact{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.contactList{
+  text-align: center;
+  list-style-type: none;
+}
+.mayAlignTextCenter{
+  text-align:center;
+}
+
+.bigTextArea{
+  height: 20%;
+  width: 30%;
+}

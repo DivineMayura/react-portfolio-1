@@ -63,13 +63,14 @@ function Projects() {
 
 
 
-        <div className="flexProjects">
+        <div className="flexProjects" >
             {projects.map(projects => (
-                <div className="card" style={cardStyle}>
+                <div className="card" style={cardStyle} key={projects.id} >
                     <img
                         className="card-img-top"
                         src={projects.image}
                         alt={projects.name}
+                        
                     />
                     <div className="card-body">
                         <h5 className="card-title">Name: {projects.name}</h5>

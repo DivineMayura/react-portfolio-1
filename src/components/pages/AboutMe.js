@@ -23,9 +23,9 @@ export default function aboutMay() {
                 </p>
             </div>
             <div>
-                <p><h6>
+                <h6>
                     My Hobbies Are:
-                </h6>
+                </h6><p>
                     Learning <br />
                     Coding <br />
                     Reading <br />
