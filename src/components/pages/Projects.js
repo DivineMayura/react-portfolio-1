@@ -1,21 +1,4 @@
 import React from 'react';
-// import Card from './Card';
-
-import i1 from "./../../images/dungeonrunner.gif";
-import i2 from "./../../images/holyhour.jpg";
-import i3 from "./../../images/pswrdgen.jpg";
-import i4 from "./../../images/quiz.jpg";
-import i5 from "./../../images/weather.jpg";
-// import i6 from "./../../images/dungeonrunner.gif";
-
-// When I select projects
-//  then an opaque screen appears with links to click
-// links include live site, github site, maybe another?
-
-
-
-
-
 
 
 function Projects() {
@@ -62,7 +45,7 @@ function Projects() {
         },
         {
             id: 6,
-            image: { i1 },
+            image: "",
             name: "old",
             about: "",
             github: "",
@@ -71,30 +54,31 @@ function Projects() {
     ]
     const cardStyle = {
         //Equal to the computed value of font-size on the root element. When specified on the font-size property of the root element, the rem units refer to the property’s initial value.
-        width: '18rem',
+        width: '40rem',
         backgroundColor: "black",
-      };
+        padding: "1vw",
+    };
 
     return (
 
-        
+
 
         <div className="flexProjects">
-            {projects.map(projects =>(
-      <div className="card" style={cardStyle}>
-        <img
-          className="card-img-top"
-          src={projects.image}
-          alt={projects.name}
-        />
-        <div className="card-body">
-        <h5 className="card-title">Name: {projects.name}</h5>
-          <p className="card-text">Description: {projects.about}</p>
-          <a href={projects.github} target="_blank" rel="noreferrer" className="card-text">GitHub</a> <br/>
-          <a href={projects.deployed} target="_blank" rel="noreferrer" className="card-text">Deployed Site</a>
-        </div>
-      </div>
-      ))}
+            {projects.map(projects => (
+                <div className="card" style={cardStyle}>
+                    <img
+                        className="card-img-top"
+                        src={projects.image}
+                        alt={projects.name}
+                    />
+                    <div className="card-body">
+                        <h5 className="card-title">Name: {projects.name}</h5>
+                        <p className="card-text">Description: {projects.about}</p>
+                        <a href={projects.github} target="_blank" rel="noreferrer" className="card-text">GitHub</a> <br />
+                        <a href={projects.deployed} target="_blank" rel="noreferrer" className="card-text">Deployed Site</a>
+                    </div>
+                </div>
+            ))}
 
         </div>
 
