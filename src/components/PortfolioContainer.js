@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import NavTabs from './NavTabs';
 
 // Pages to be rendered
-import Home from './pages/Home';
+import Resume from './pages/Resume';
 import About from './pages/AboutMe';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
@@ -19,17 +19,20 @@ export default function PortfolioContainer() {
     //   if the current page === "home" which was set upon selection of nav link
     // then return home so the user can view it.
     const renderPage = () => {
-        if (currentPage === 'Home') {
-              return <Home />;
+        if (currentPage === 'Resume') {
+              return <Resume />;
         }
-        if (currentPage === 'About') {
-              return <About />;
+        if (currentPage === 'Contact') {
+              return <Contact />;
         }
         if (currentPage === 'Projects') {
             return <Projects />;
         }
-        return <Contact />;
+
+
+        return <About />;
     };
+
 
     // handlePageChange 
     // on the nav bar, the onClick function passes in a string "home", "About" etc

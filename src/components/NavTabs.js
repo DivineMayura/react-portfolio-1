@@ -10,18 +10,8 @@ export default function NavTabs({ currentPage, handlePageChange }) {
         //   nav bar is an unordered list containing list items which are links
 
         <ul className="nav nav-tabs">
-            <li className="nav-item">
-                <a
-                    href="#home"
-                    //   onclick the function handlePageChange activates setting string to "home"
-                    onClick={() => handlePageChange('Home')}
-                    //   class name is nav-link active if the current page is actually "home"
-                    // otherwise it's just 'nav-link" class
-                    className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
-                >
-                    Home
-                </a>
-            </li>
+
+
             {/* The rest operate in the same manner */}
             <li className="nav-item">
                 <a
@@ -48,6 +38,18 @@ export default function NavTabs({ currentPage, handlePageChange }) {
                     className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
                 >
                     Contact
+                </a>
+            </li>
+            <li className="nav-item">
+                <a
+                    href="#resume"
+                    //   onclick the function handlePageChange activates setting string to "home"
+                    onClick={() => handlePageChange('Resume')}
+                    //   class name is nav-link active if the current page is actually "home"
+                    // otherwise it's just 'nav-link" class
+                    className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+                >
+                    Resume
                 </a>
             </li>
         </ul>
