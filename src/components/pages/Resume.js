@@ -40,6 +40,7 @@ export default function resume() {
                     License number: 4177741<br />
 
                     Reference: FAA Airmen Inquiry website.<br />
+                    (Contains my Legal name)<br />
 
                     <br />
                     </p>

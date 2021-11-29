@@ -51,6 +51,9 @@ export default function PortfolioContainer() {
             {/* Then we are calling the renderPage method which will check the current page,
                 and then pull it up  */}
             {renderPage()}
+            <footer>
+                Made with ❤️ by May Faucher
+            </footer>
         </div>
     );
 }

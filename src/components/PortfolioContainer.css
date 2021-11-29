@@ -7,12 +7,20 @@
     flex-direction: column;
 
   }
-
+  card{
+    max-width: 98vw !important;
+}
+img{
+    max-width: 98vw;
+    object-fit: cover;
+}
   .padding{
     display:flex;
     padding: 1vw 10vw 0px 10vw;
   }
-
+p{
+  max-width: 98vw;
+}
 .flexProjects{
   display: flex;
   flex-direction: column;
@@ -42,4 +50,82 @@
 
 .form{
   justify-content: center;
+}
+
+body{
+  background-color: #282C34;
+  color:aliceblue;
+}
+
+.active {
+  color: #F8004E !important;
+  background-color:#282c34 !important;
+  border-color: #F8004E #F8004E #282c34 !important;
+  box-shadow: 0px 5px 0px 5px #282c34 inset, 0px -5px 5px 0px #F8004E inset !important;
+}
+
+.nav-link{
+  color:#31E1BD;
+}
+
+.nav-link:hover{
+  color:#FFC12E;
+}
+
+.nav{
+    background-color: #282C34;
+}
+
+.nav-tabs{
+  border-bottom: 1px solid #F8004E;
+}
+.nav-link:hover {
+  border-color: #F8004E #F8004E #282c34 !important;
+  /* box-shadow: 0px 5px 0px 5px #282c34 inset, 0px -5px 5px 0px #FFC12E inset;  */
+  isolation: isolate;
+}
+
+.contactButton{
+background-color:#262A31;
+border-style: solid;
+border-width: 1px;
+border-color: #31E1BD;
+}
+
+.profImage{
+border-radius: 20px;
+box-shadow: 0px 5px 5px 0px #F8004E;
+}
+
+.lilBackground{
+background-color: #1D2027;
+box-shadow:0px -5px 5px 0px #F8004E;
+border-radius: 20px;
+}
+.topPadding{
+padding-top: 1vw;
+}
+.mayFlex{
+display:flex;
+}
+.mayJustifyCenter{
+justify-content: center;
+}
+.flexContact{
+  height:max-content;
+}
+footer{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  color: #31E1BD;
+  position:sticky;
+  bottom:0px;
+  z-index: 20;
+}
+@media only screen and (max-width: 600px) {
+  .card {
+    max-width: 98vw !important;
+  }
 }

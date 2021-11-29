@@ -8,7 +8,7 @@ import selfie from "./../../images/selfie11.jpg";
 export default function aboutMay() {
     return (
         <div className="mayCenter padding">
-            <div>
+            <div className="mayFlex mayJustifyCenter">
                 <img alt="imageOfMay" className="profImage" src={selfie} />
             </div>
             <br/>
