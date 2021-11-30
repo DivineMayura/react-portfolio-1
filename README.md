@@ -30,4 +30,4 @@ This project is licensed under the MIT License
 
 ## Image of Site:
 
-![Image Of Site](./public/images/screen.png)
+![Image Of Site](./screen.png)
