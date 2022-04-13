@@ -23,7 +23,7 @@ function Projects() {
             id: 3,
             image: "https://github.com/DivineMayura/react-portfolio-1/blob/main/src/images/weather.jpg?raw=true",
             name: "Weather Dashboard",
-            about: "This is a simple weather dashboard using Open Weather Map One Call API, and GeoLocation API, to display the weather of any city the user types in. Uses Local Storage for search history",
+            about: "One of my earlier projects; a simple weather dashboard using Open Weather Map One Call API, and GeoLocation API, to display the weather of any city the user types in. Uses Local Storage for search history",
             github: "https://github.com/DivineMayura/weather-dashboard-server-side-api",
             deployed: "https://divinemayura.github.io/weather-dashboard-server-side-api/"
         },
