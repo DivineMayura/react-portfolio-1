@@ -18,7 +18,7 @@ My Fourth Portfolio, a super basic react portfolio.
 
 ## Author
 
-* **May Faucher** 
+* **Cosette Faucher** 
 
 - [Link to old Portfolio Site](https://quiet-lake-79543.herokuapp.com/)
 - [Link to Github](https://github.com/DivineMayura)

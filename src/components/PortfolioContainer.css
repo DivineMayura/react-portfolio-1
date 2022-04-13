@@ -1,6 +1,6 @@
 
 
-  .mayCenter{
+  .cosetteCenter{
     text-align: center;
     display:flex;
     justify-content: center;
@@ -39,7 +39,7 @@ p{
   text-align: center;
   list-style-type: none;
 }
-.mayAlignTextCenter{
+.cosetteAlignTextCenter{
   text-align:center;
 }
 
@@ -105,10 +105,10 @@ border-radius: 20px;
 .topPadding{
 padding-top: 1vw;
 }
-.mayFlex{
+.cosetteFlex{
 display:flex;
 }
-.mayJustifyCenter{
+.cosetteJustifyCenter{
 justify-content: center;
 }
 .flexContact{

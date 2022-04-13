@@ -65,7 +65,7 @@ function Projects() {
 
         <div className="flexProjects" >
             {projects.map(projects => (
-                <div className="card mayFlex mayJustifyCenter" style={cardStyle} key={projects.id} >
+                <div className="card cosetteFlex cosetteJustifyCenter" style={cardStyle} key={projects.id} >
                     <img
                         className="card-img-top"
                         src={projects.image}

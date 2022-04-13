@@ -14,7 +14,7 @@ export default function contact() {
 
     return (
         <div className="padding flexContact">
-            <h5 className="mayAlignTextCenter">
+            <h5 className="cosetteAlignTextCenter">
                 <button className="contactButton">
                     <a href="https://github.com/DivineMayura"
                         rel="noreferrer"
@@ -22,7 +22,7 @@ export default function contact() {
                         className="contactLink nav-link">GitHub</a>
                 </button>
             </h5>
-            <h5 className="mayAlignTextCenter">
+            <h5 className="cosetteAlignTextCenter">
                 <button className="contactButton">
                     <a href="https://www.linkedin.com/in/mayfaucher/"
                         rel="noreferrer"
@@ -31,7 +31,7 @@ export default function contact() {
                 </button>
 
             </h5>
-            <h5 className="mayAlignTextCenter">
+            <h5 className="cosetteAlignTextCenter">
                 <button className="contactButton">
                     <a href="https://medium.com/@mayyfaucher"
                         rel="noreferrer"
@@ -39,7 +39,7 @@ export default function contact() {
                         className="contactLink nav-link">Medium.com</a>
                 </button>
             </h5>
-            <h5 className="mayAlignTextCenter">
+            <h5 className="cosetteAlignTextCenter">
                 <button className="contactButton">
                     <a className="contactLink nav-link" target="_blank" rel="noreferrer" href="https://drive.google.com/drive/folders/1nlS_3OJolUbQDhC7ayuc0yAnT_uEWCji?usp=sharing">download resume on Google Drive</a></button>
             </h5>

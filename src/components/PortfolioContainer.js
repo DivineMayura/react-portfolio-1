@@ -52,7 +52,7 @@ export default function PortfolioContainer() {
                 and then pull it up  */}
             {renderPage()}
             <footer>
-                Made with ❤️ by May Faucher
+                Made with ❤️ by Cosette Faucher
             </footer>
         </div>
     );

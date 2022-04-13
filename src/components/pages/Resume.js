@@ -3,25 +3,25 @@ import React from 'react';
 
 export default function resume() {
     return (
-        <div className="mayCenter padding">
+        <div className="cosetteCenter padding">
             <h1>RESUME</h1>
             <hr />
             <div>
                 <h3>Education:</h3>
                 <h6>UC Berkeley Extension</h6><p>
-                    2021- currently<br />
-                    Learning Full Stack Web Development.<br />
+                    2021- 2022<br />
+                    Learnt full stack web development and graduated with a certificate.<br />
                     <br />
                 </p>
                 <h6>College of the Redwoods</h6><p>
                     2020 - 2021.
                     <br />
-                    Majoring in psychology.<br />
+                    Working towards a major in psychology.<br />
                     <br />
                 </p>
                 <h6>California Flight Academy</h6><p>
                     2018 – 2019<br />
-                    I left the flight academy with my pilot’s license.<br />
+                    Became a licensed pilot and left for college.<br />
                     <br />
                 </p>
                 <h6>Alder Grove Charter School</h6><p>
