@@ -20,7 +20,7 @@ My Fourth Portfolio, a super basic react portfolio.
 
 * **Cosette Faucher** 
 
-- [Link to old Portfolio Site](https://quiet-lake-79543.herokuapp.com/)
+-~~ [Link to old Portfolio Site](https://quiet-lake-79543.herokuapp.com/)~~
 - [Link to Github](https://github.com/DivineMayura)
 - [Link to LinkedIn](www.linkedin.com/in/mayfaucher)
 
