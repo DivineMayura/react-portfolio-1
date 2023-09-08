@@ -1,5 +1,5 @@
 import React from 'react';
-import selfie from "./../../images/selfie11.jpg";
+import selfie from "./../../images/selfie12.jpg";
 // if I view my about me page,
 // then I am presented with a profile picture, as well as a paragraph about me
 //  and a list of all my skills that I have acquired thus far.
@@ -18,11 +18,11 @@ export default function aboutCosette() {
                     About Me:
                 </h3>
                 <p>
-                    I'm a twenty one year old full stack web developer and a certified pilot!  <br /><br />
-                    I have a very wide skill set, I love learning new things, and I want to use those skills for awesome things. <br /><br />
-                    After I graduated high school, I went to acquire my pilot’s license. <br />
-                    Upon receiving my certificate I attended a community college in Eureka California for a year. <br /> 
-                    Then I attended and graduated UC Berkeley's full stack web development bootcamp, and now I'm looking for a job!!
+                    I'm a twenty three year web developer with a background in aviation!  <br /><br />
+                    I have a very wide, yet exceptionally capable skill set and I love learning new things. <br /><br />
+                    Currently living in San Francisco, open to hire full time or part time! <br />
+                    Currently, the ideal email to contact me is at: the.cosette.faucher@gmail.com . <br /> 
+                    I took a coding hiatus, however picking it back up is easier than riding a bike, especially with google.
                     <br />
                 </p>
             </div>
@@ -33,13 +33,13 @@ export default function aboutCosette() {
                 </h6><p>
                     Learning <br />
                     Coding <br />
-                    Reading <br />
+                    Gaming <br />
                     Philosophy <br />
                     Psychology <br />
-                    Chess <br />
+                    E-Sports <br />
                     Travel <br />
                     Self-Improvement <br />
-                    Creating Things <br />
+                    Exploring the City <br />
                     Flying  <br />
                     <br />
                     <br />

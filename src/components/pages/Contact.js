@@ -24,7 +24,7 @@ export default function contact() {
             </h5>
             <h5 className="cosetteAlignTextCenter">
                 <button className="contactButton">
-                    <a href="https://www.linkedin.com/in/mayfaucher/"
+                    <a href="https://www.linkedin.com/in/cosettefaucher/"
                         rel="noreferrer"
                         target="_blank"
                         className="contactLink nav-link">LinkedIn</a>
@@ -33,7 +33,7 @@ export default function contact() {
             </h5>
             <h5 className="cosetteAlignTextCenter">
                 <button className="contactButton">
-                    <a href="https://medium.com/@mayyfaucher"
+                    <a href="https://medium.com/@cosettefaucher"
                         rel="noreferrer"
                         target="_blank"
                         className="contactLink nav-link">Medium.com</a>
@@ -66,7 +66,7 @@ export default function contact() {
                             Submit
                         </button>
                         <div className="formSubmitHidden">
-                            This Feature Hasn't fully been implemented yet. You can instead email me here at: MayyFaucher@gmail.com .
+                            This Feature Hasn't fully been implemented yet because I'm going to make a new portfolio. You can instead email me here at: the.cosette.faucher@gmail.com .
                         </div>
                     </form>
                 </div>
